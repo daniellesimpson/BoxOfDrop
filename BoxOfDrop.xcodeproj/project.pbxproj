@@ -15,6 +15,7 @@
 		5EB81EDF1D6524F600215870 /* BoxOfDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB81EDE1D6524F600215870 /* BoxOfDropTests.swift */; };
 		5EB81EEA1D6524F600215870 /* BoxOfDropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB81EE91D6524F600215870 /* BoxOfDropUITests.swift */; };
 		5ECA46311D6748D500792559 /* createAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA46301D6748D500792559 /* createAccountRootViewController.swift */; };
+		5ECA46331D67925D00792559 /* newAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA46321D67925D00792559 /* newAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5EB81EE91D6524F600215870 /* BoxOfDropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfDropUITests.swift; sourceTree = "<group>"; };
 		5EB81EEB1D6524F600215870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ECA46301D6748D500792559 /* createAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createAccountRootViewController.swift; sourceTree = "<group>"; };
+		5ECA46321D67925D00792559 /* newAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				5EB81EC91D6524F600215870 /* AppDelegate.swift */,
 				5EB81ECB1D6524F600215870 /* ViewController.swift */,
 				5EB81ECD1D6524F600215870 /* Main.storyboard */,
+				5ECA46321D67925D00792559 /* newAccountViewController.swift */,
 				5ECA46301D6748D500792559 /* createAccountRootViewController.swift */,
 				5EB81ED01D6524F600215870 /* Assets.xcassets */,
 				5EB81ED21D6524F600215870 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				5EB81ECC1D6524F600215870 /* ViewController.swift in Sources */,
 				5EB81ECA1D6524F600215870 /* AppDelegate.swift in Sources */,
 				5ECA46311D6748D500792559 /* createAccountRootViewController.swift in Sources */,
+				5ECA46331D67925D00792559 /* newAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
