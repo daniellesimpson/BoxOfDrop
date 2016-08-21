@@ -22,6 +22,7 @@
 		5ECA463B1D6A388E00792559 /* newUserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA463A1D6A388E00792559 /* newUserSettingsViewController.swift */; };
 		5ECA463D1D6A402C00792559 /* myPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA463C1D6A402C00792559 /* myPhotosViewController.swift */; };
 		5ECA463F1D6A45A600792559 /* filesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA463E1D6A45A600792559 /* filesViewController.swift */; };
+		5ECA46411D6A5CFD00792559 /* welcomeScreensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA46401D6A5CFD00792559 /* welcomeScreensViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		5ECA463A1D6A388E00792559 /* newUserSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newUserSettingsViewController.swift; sourceTree = "<group>"; };
 		5ECA463C1D6A402C00792559 /* myPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPhotosViewController.swift; sourceTree = "<group>"; };
 		5ECA463E1D6A45A600792559 /* filesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filesViewController.swift; sourceTree = "<group>"; };
+		5ECA46401D6A5CFD00792559 /* welcomeScreensViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeScreensViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				5EB81EC91D6524F600215870 /* AppDelegate.swift */,
 				5EB81ECB1D6524F600215870 /* ViewController.swift */,
 				5EB81ECD1D6524F600215870 /* Main.storyboard */,
+				5ECA46401D6A5CFD00792559 /* welcomeScreensViewController.swift */,
 				5ECA463C1D6A402C00792559 /* myPhotosViewController.swift */,
 				5ECA463E1D6A45A600792559 /* filesViewController.swift */,
 				5ECA46381D69E65700792559 /* termsViewController.swift */,
@@ -284,6 +287,7 @@
 				5EB81ECC1D6524F600215870 /* ViewController.swift in Sources */,
 				5ECA463D1D6A402C00792559 /* myPhotosViewController.swift in Sources */,
 				5ECA46371D69E3D200792559 /* signInScreenViewController.swift in Sources */,
+				5ECA46411D6A5CFD00792559 /* welcomeScreensViewController.swift in Sources */,
 				5ECA463F1D6A45A600792559 /* filesViewController.swift in Sources */,
 				5EB81ECA1D6524F600215870 /* AppDelegate.swift in Sources */,
 				5ECA46311D6748D500792559 /* createAccountRootViewController.swift in Sources */,

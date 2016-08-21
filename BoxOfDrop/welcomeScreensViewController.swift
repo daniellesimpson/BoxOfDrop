@@ -1,5 +1,5 @@
 //
-//  termsViewController.swift
+//  welcomeScreensViewController.swift
 //  BoxOfDrop
 //
 //  Created by Simpson, Danielle on 8/21/16.
@@ -8,25 +8,27 @@
 
 import UIKit
 
-class termsViewController: UIViewController {
+class welcomeScreensViewController: UIViewController, UIScrollViewDelegate {
 
-    @IBOutlet weak var termsWeb: UIWebView!
-    let url = "https://www.dropbox.com/terms?mobile=1"
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var pageControl: UIPageControl!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Convert the url String to a NSURL object.
-        let requestURL = NSURL(string:url)
-        // Place the URL in a URL Request.
-        let request = NSURLRequest(URL: requestURL!)
-        // Load Request into WebView.
-        termsWeb.loadRequest(request)
-        
+
+        // Do any additional setup after loading the view.
+        scrollView.contentSize = CGSizeMake(960,568)
+        scrollView.delegate = self
+
     }
 
-    @IBAction func dimissTerms(sender: UIButton) {
-        dismissViewControllerAnimated(true, completion: nil)
+    func scrollViewDidEndDecelerating(scrollView: UIScrollView!) {
+        // Get the current page based on the scroll offset
+        var page : Int = Int(round(scrollView.contentOffset.x / 320))
+        
+        // Set the current page, so the dots will update
+        pageControl.currentPage = page
     }
     
     override func didReceiveMemoryWarning() {
