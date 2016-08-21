@@ -9,9 +9,13 @@
 import UIKit
 
 class newUserSettingsViewController: UIViewController {
+    
+    @IBOutlet weak var scrollView: UIScrollView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        scrollView.contentSize = CGSizeMake(320,722)
 
         // Do any additional setup after loading the view.
     }
