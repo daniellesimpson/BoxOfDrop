@@ -211,7 +211,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="20G-Rm-73h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2852" y="260"/>
+            <point key="canvasLocation" x="2082" y="260"/>
         </scene>
         <!--Photos-->
         <scene sceneID="DHt-O6-UvJ">
@@ -835,8 +835,8 @@
         <image name="welcome_3" width="640" height="1136"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HWV-hX-vBw"/>
+        <segue reference="HEV-RT-qJn"/>
         <segue reference="aCG-WQ-aZY"/>
-        <segue reference="Kc6-HW-OT9"/>
+        <segue reference="GFf-zv-7Ti"/>
     </inferredMetricsTieBreakers>
 </document>
