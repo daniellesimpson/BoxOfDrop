@@ -79,7 +79,6 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="B0F-Yu-g5X" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="KKA-VC-Ncx"/>
-                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="d2B-mD-ST7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -493,6 +492,13 @@
                                     <segue destination="2oW-Qg-BDN" kind="push" identifier="signInSegue" id="HWV-hX-vBw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7FY-iR-D8I">
+                                <rect key="frame" x="0.0" y="469" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="a7R-wJ-6nt" kind="push" id="Kc6-HW-OT9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -538,7 +544,7 @@
                                 <rect key="frame" x="0.0" y="15" width="105" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="goBack:" destination="2oW-Qg-BDN" eventType="touchUpInside" id="TKb-6N-CGG"/>
+                                    <action selector="goBack:" destination="2oW-Qg-BDN" eventType="touchUpInside" id="tkd-gP-d2u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SqU-nh-Ic3">
@@ -575,20 +581,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vvt-HA-sR4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2082" y="1006"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="fM6-sp-UsM">
-            <objects>
-                <viewController id="LhB-gG-yoF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dPE-dT-wO7">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="P3V-Lx-FuE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2194" y="1701"/>
         </scene>
         <!--Sign In Screen View Controller-->
         <scene sceneID="5wX-VY-0Jz">
@@ -843,7 +835,8 @@
         <image name="welcome_3" width="640" height="1136"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aCG-WQ-aZY"/>
         <segue reference="HWV-hX-vBw"/>
+        <segue reference="aCG-WQ-aZY"/>
+        <segue reference="Kc6-HW-OT9"/>
     </inferredMetricsTieBreakers>
 </document>

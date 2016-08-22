@@ -17,11 +17,11 @@ class signInScreenViewController: UIViewController {
     }
 
     
+
+    
     @IBAction func goBack(sender: UIButton) {
         navigationController!.popViewControllerAnimated(true)
-
     }
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
