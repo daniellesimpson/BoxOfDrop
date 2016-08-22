@@ -34,11 +34,13 @@ Please list two areas of the assignment you'd like to **discuss further with you
 1. All the caution type errors that show up.
 2. Would love to know how to change the image in favorites after I favorite an item.
 
+
 ### Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/daniellesimpson/BoxOfDrop/blob/master/BoxOfDrop.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Video Walkthrough](https://github.com/daniellesimpson/BoxOfDrop/blob/master/BoxOfDrop.gif)
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
